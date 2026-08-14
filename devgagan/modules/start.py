@@ -192,11 +192,29 @@ async def terms(client, message):
 @app.on_message(filters.command("plan") & filters.private)
 async def plan(client, message):
     plan_text = (
-        "> 💰 **Premium Price**:\n\n Starting from 200 INR accepted via **__Amazon Gift Card__** (terms and conditions apply).\n"
-        "📥 **Download Limit**: Users can download up to 100,000 files in a single batch command.\n"
-        "🛑 **Batch**: You will get two modes /bulk and /batch.\n"
-        "   - Users are advised to wait for the process to automatically cancel before proceeding with any downloads or uploads.\n\n"
-        "📜 **Terms and Conditions**: For further details and complete terms and conditions, please send /terms.\n"
+       # "> 💰 **Premium Price**:\n\n Starting from 200 INR accepted via **__Amazon Gift Card__** (terms and conditions apply).\n"
+       # "📥 **Download Limit**: Users can download up to 100,000 files in a single batch command.\n"
+       # "🛑 **Batch**: You will get two modes /bulk and /batch.\n"
+       # "   - Users are advised to wait for the process to automatically cancel before proceeding with any downloads or uploads.\n\n"
+     
+        "👑 SHELLBY PRO PLAN 👑\n"
+        "━━━━━━━━━━━━━━━━━━━━\n"
+        "🌟 Unlock Unlimited Power: 🚀\n\n"
+        "✨ No Size Limit (Extract & Forward any size)\n"
+        "✨ Unlimited Files (Roz jitni marzi files nikaalein)\n"
+        "✨ Watermarking (Add Custom Text/Logo to Videos)\n"
+        "✨ Private Access: Restricted channels unlock\n"
+        "✨ Bulk Power: Ek sath 1 Lakh+ files nikaalein\n"
+        "━━━━━━━━━━━━━━━━━━━━\n\n"
+        "💳 Premium Pricing:\n\n"
+        "🏆 Weekly Pro Plan: ₹200 (For 7 Days)\n\n"
+        "🏆 Monthly Pro Plan: ₹250 (For 30 Days)\n\n"
+        "🔗 Payment Method: ONLY UPI ACCEPTED ✅\n"
+        "⚠️ *(Please note: Amazon Gift Card or Stars are NO LONGER accepted!)*"
+    )
+ 
+     
+       "📜 **Terms and Conditions**: For further details and complete terms and conditions, please send /terms.\n"
     )
      
     buttons = InlineKeyboardMarkup(
@@ -211,10 +229,25 @@ async def plan(client, message):
 @app.on_callback_query(filters.regex("see_plan"))
 async def see_plan(client, callback_query):
     plan_text = (
-        "> 💰**Premium Price**\n\n Starting from 200 INR accepted via **__Amazon Gift Card__** (terms and conditions apply).\n"
-        "📥 **Download Limit**: Users can download up to 100,000 files in a single batch command.\n"
-        "🛑 **Batch**: You will get two modes /bulk and /batch.\n"
-        "   - Users are advised to wait for the process to automatically cancel before proceeding with any downloads or uploads.\n\n"
+        #"> 💰**Premium Price**\n\n Starting from 200 INR accepted via **__Amazon Gift Card__** (terms and conditions apply).\n"
+        #"📥 **Download Limit**: Users can download up to 100,000 files in a single batch command.\n"
+        #"🛑 **Batch**: You will get two modes /bulk and /batch.\n"
+        #"   - Users are advised to wait for the process to automatically cancel before proceeding with any downloads or uploads.\n\n"
+          
+          "👑 SHELLBY PRO PLAN 👑\n"
+        "━━━━━━━━━━━━━━━━━━━━\n"
+        "🌟 Unlock Unlimited Power: 🚀\n\n"
+        "✨ No Size Limit (Extract & Forward any size)\n"
+        "✨ Unlimited Files (Roz jitni marzi files nikaalein)\n"
+        "✨ Watermarking (Add Custom Text/Logo to Videos)\n"
+        "✨ Private Access: Restricted channels unlock\n"
+        "✨ Bulk Power: Ek sath 1 Lakh+ files nikaalein\n"
+        "━━━━━━━━━━━━━━━━━━━━\n\n"
+        "💳 Premium Pricing:\n\n"
+        "🏆 Weekly Pro Plan: ₹150 (For 7 Days)\n\n"
+        "🏆 Monthly Pro Plan: ₹250 (For 30 Days)\n\n"
+        "🔗 Payment Method: ONLY UPI ACCEPTED ✅\n"
+        "⚠️ *(Please note: Amazon Gift Card or Stars are NO LONGER accepted!)*"
         "📜 **Terms and Conditions**: For further details and complete terms and conditions, please send /terms or click See Terms👇\n"
     )
      
