@@ -211,10 +211,10 @@ async def plan(client, message):
         "🏆 Monthly Pro Plan: ₹250 (For 30 Days)\n\n"
         "🔗 Payment Method: ONLY UPI ACCEPTED ✅\n"
         "⚠️ *(Please note: Amazon Gift Card or Stars are NO LONGER accepted!)*"
-    )
+    
  
      
-       "📜 **Terms and Conditions**: For further details and complete terms and conditions, please send /terms.\n"
+        "📜 **Terms and Conditions**: For further details and complete terms and conditions, please send /terms.\n"
     )
      
     buttons = InlineKeyboardMarkup(
