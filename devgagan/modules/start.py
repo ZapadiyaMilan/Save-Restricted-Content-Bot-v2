@@ -211,9 +211,6 @@ async def plan(client, message):
         "🏆 Monthly Pro Plan: ₹250 (For 30 Days)\n\n"
         "🔗 Payment Method: ONLY UPI ACCEPTED ✅\n"
         "⚠️ *(Please note: Amazon Gift Card or Stars are NO LONGER accepted!)*"
-    
- 
-     
         "📜 **Terms and Conditions**: For further details and complete terms and conditions, please send /terms.\n"
     )
      
@@ -234,7 +231,7 @@ async def see_plan(client, callback_query):
         #"🛑 **Batch**: You will get two modes /bulk and /batch.\n"
         #"   - Users are advised to wait for the process to automatically cancel before proceeding with any downloads or uploads.\n\n"
           
-          "👑 SHELLBY PRO PLAN 👑\n"
+        "👑 SHELLBY PRO PLAN 👑\n"
         "━━━━━━━━━━━━━━━━━━━━\n"
         "🌟 Unlock Unlimited Power: 🚀\n\n"
         "✨ No Size Limit (Extract & Forward any size)\n"
