@@ -85,6 +85,12 @@ async def token_handler(client, message):
             msg.photo.file_id,
             caption=(
                 "Hi 👋 Welcome, SHELLBY ...?\n\n"
+
+             
+                 " ⚠️ ACCESS \n"
+                 " ⚠️ BOT Ko use karne ke liye aapko Hamara chennal Joined karna padega ✅🔏 \n"
+
+             
                  " 🔏 Fetch any restricted or private chennal & groups \n"
                  " Content - video, files, photo, PDFs, Text , Etc..\n"
               #  "✳️ I can save posts from channels or groups where forwarding is off. I can download videos/audio from YT, INSTA, ... social platforms\n"
