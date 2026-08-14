@@ -84,11 +84,11 @@ async def token_handler(client, message):
         await message.reply_photo(
             msg.photo.file_id,
             caption=(
-                "Hi 👋 Welcome, SHELLBY ...?\n\n"
+                "Hi 👹 Welcome, SHELLBY ...?\n\n"
 
              
                  " ⚠️ ACCESS \n"
-                 " ⚠️ BOT Ko use karne ke liye aapko Hamara chennal Joined karna padega ✅🔏 \n"
+                 " ⚠️ BOT Ko use karne ke liye aapko Hamara chennal Joined karna padega ✅\n"
 
              
                  " 🔏 Fetch any restricted or private chennal & groups \n"
