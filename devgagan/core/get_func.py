@@ -208,7 +208,7 @@ class ProgressManager:
             f"│ **__Speed:__** {speed_mbps:.2f} Mbps\n"
             f"│ **__ETA:__** {eta_min:.2f} min\n"
             f"╰──────────────────╯\n\n"
-            f"**__Powered by Team SPY__**"
+            f"**__Powered by Team SHELLBY__**"
         )
 
 class CaptionFormatter:
@@ -595,7 +595,7 @@ class SmartTelegramBot:
             if free_check == 1:
                 # Free user - send with protection
                 reply_markup = InlineKeyboardMarkup([[
-                    InlineKeyboardButton("💎 Get Premium to Forward", url="https://t.me/kingofpatal")
+                    InlineKeyboardButton("💎 Get Premium to Forward", url="https://t.me/Zapadiya_milan_003")
                 ]])
                 await app.copy_message(target_chat_id, LOG_GROUP, result.id, protect_content=True, reply_markup=reply_markup)
             else:
