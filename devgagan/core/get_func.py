@@ -912,14 +912,14 @@ class SmartTelegramBot:
     async def send_settings_panel(self, chat_id: int, user_id: int):
         """Send enhanced settings panel"""
         buttons = [
-            [Button.inline("Set Chat ID", b'setchat'), Button.inline("Set Rename Tag", b'setrename')],
-            [Button.inline("Caption", b'setcaption'), Button.inline("Replace Words", b'setreplacement')],
-            [Button.inline("Remove Words", b'delete'), Button.inline("Reset All", b'reset')],
-            [Button.inline("Session Login", b'addsession'), Button.inline("Logout", b'logout')],
-            [Button.inline("Set Thumbnail", b'setthumb'), Button.inline("Remove Thumbnail", b'remthumb')],
-            [Button.inline("PDF Watermark", b'pdfwt'), Button.inline("Video Watermark", b'watermark')],
-            [Button.inline("Upload Method", b'uploadmethod')],
-            [Button.url("Report Issues", "https://t.me/team_shellby_limited")]
+            [Button.inline("Set Chat ID", b'setchat'), Button.inline("☠️Set Rename Tag", b'setrename')],
+            [Button.inline("Caption", b'setcaption'), Button.inline("❄️ Replace Words", b'setreplacement')],
+            [Button.inline("Remove Words", b'delete'), Button.inline("♻️Reset All", b'reset')],
+            [Button.inline("Session Login", b'addsession'), Button.inline("⛔Logout", b'logout')],
+            [Button.inline("Set Thumbnail", b'setthumb'), Button.inline("🖼️Remove Thumbnail", b'remthumb')],
+            [Button.inline("PDF Watermark", b'pdfwt'), Button.inline("🃏Video Watermark", b'watermark')],
+            [Button.inline(🎨"Upload Method", b'uploadmethod')],
+            [Button.url("⚜️Report Issues", "https://t.me/team_shellby_limited")]
         ]
         
         message = (
