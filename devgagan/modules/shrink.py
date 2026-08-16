@@ -82,7 +82,8 @@ async def token_handler(client, message):
         ])
          
         await message.reply_photo(
-            msg.photo.file_id,
+           # msg.photo.file_id,
+            image_url,
             caption=(
                  "Hi 👹 Welcome, SHELLBY ...?\n\n"
              
