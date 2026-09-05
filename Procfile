@@ -1,1 +1,1 @@
-web: python -m devgagant
+worker : python -m devgagant
