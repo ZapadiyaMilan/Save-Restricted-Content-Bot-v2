@@ -1,3 +1,2 @@
-web: python3 -m devgagon
-worker: python3 -m devgagon
-
+web: python3 app.py
+worker: python3 app.py
