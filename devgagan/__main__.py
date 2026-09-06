@@ -61,27 +61,3 @@ if __name__ == "__main__":
     loop.run_until_complete(devggn_boot())
 
 # ------------------------------------------------------------------ #
-import os
-from threading import Thread
-from flask import Flask
-
-app = Flask(__name__)
-
-
-@app.route("/")
-def index():
-  return "Bot is running!"
-
-
-def run_flask():
-  port = int(os.environ.get("PORT", 8080))
-  app.run(host="0.0.0.0", port=port)
-
-
-if __name__ == "__main__":
-  # ફ્લાસ્ક સર્વરને અલગ થ્રેડમાં ચાલુ કરો
-  t = Thread(target=run_flask)
-  t.start()
-
-  # મુખ્ય બોટ લૂપ ચાલુ રાખો
-  loop.run_until_complete(devgagn_boot())
