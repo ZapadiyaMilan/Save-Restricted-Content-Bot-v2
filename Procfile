@@ -1,1 +1,1 @@
-web: python devgagon/__main__.py
+web: python devgagan/__main__.py
