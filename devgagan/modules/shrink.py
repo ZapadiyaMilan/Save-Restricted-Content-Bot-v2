@@ -90,14 +90,14 @@ async def token_handler(client, message):
                  "━━━━━━━━━━━━━━━━━━━━\n"
              
                  " ⚠️ ACCESS \n"
-                 " ⚠️ BOT Ko use karne ke liye aapko Hamara chennal Joined karna padega ✅\n"
-             
+                 " 🍁 BOT KO USE KARNE KE LIYE AAPKO HAMARA CHENNAL JOINED KARNA PADEGA ✅\n"
+                   
                  "━━━━━━━━━━━━━━━━━━━━\n"
-             
-                 " 🔏 Fetch any restricted or private chennal & groups \n"
-                 " Content - video, files, photo, PDFs, Text , Etc..\n"
-                 "✳️ I can save posts from channels or groups where forwarding is off. I can download videos/audio from YT, INSTA, ... social platforms\n"
-                 "✳️ Simply send the post link of a public channel. For private channels, do /login. Send /help to know more."
+                     
+                 " 🔏 FETCH ANY RESTRICTED OR PRIVATE CHENNAL & GROUPS\n"
+                 " CONTENT - VIDEO, FILES, PHOTO, PDFs, TEXT , ETC..\n"
+                 "✳️ I CAN SAVE POST FROM CHENNAL OR GROUPS WHERE FORWARDING IS OFF. I CAN DOWNLOAD VIDEOS/AUDIOS FORM YT, INSTA, ... SOCIAL PLATFORM\n"
+                 "✳️ SIMPLY SEND THE POST LINK OF A PUBLIC & PRIVATE CHENNAL, DO /LOGIN. SEND /HELP TO KNOW MORE."
             ),
             reply_markup=keyboard
         )
