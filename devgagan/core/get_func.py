@@ -265,7 +265,7 @@ class FileOperations:
         """Process filename with user preferences"""
         delete_words = set(self.db.get_user_data(user_id, "delete_words", []))
         replacements = self.db.get_user_data(user_id, "replacement_words", {})
-        rename_tag = self.db.get_user_data(user_id, "rename_tag", "Team SPY")
+        rename_tag = self.db.get_user_data(user_id, "rename_tag", "Team SHELLBY")
         
         path = Path(file_path)
         name = path.stem
@@ -484,12 +484,12 @@ class SmartTelegramBot:
                     pass
 
     async def upload_with_telethon(self, file_path: str, user_id: int, target_chat_id: int, caption: str, topic_id: Optional[int] = None, edit_msg=None):
-        """Upload using Telethon (SpyLib) with enhanced features"""
+        """Upload using Telethon (SHELLBY) with enhanced features"""
         try:
             if edit_msg:
                 await edit_msg.delete()
             
-            progress_message = await gf.send_message(user_id, "**__SpyLib ⚡ Uploading...__**")
+            progress_message = await gf.send_message(user_id, "**__SHELLBY ⚡ Uploading...__**")
             html_caption = await self.caption_formatter.markdown_to_html(caption)
             
             # Upload file using fast_upload
@@ -541,7 +541,7 @@ class SmartTelegramBot:
             )
             
         except Exception as e:
-            await app.send_message(LOG_GROUP, f"**SpyLib Upload Failed:** {str(e)}")
+            await app.send_message(LOG_GROUP, f"**SHELLBY Upload Failed:** {str(e)}")
             raise
 
     async def handle_large_file_upload(self, file_path: str, sender: int, edit_msg, caption: str):
@@ -713,7 +713,7 @@ class SmartTelegramBot:
                 msg_id = int(parts[-1]) + offset
             
             if chat_id in protected_channels:
-                await app.edit_message_text(sender, edit_id, "❌ This channel is protected by **Team SPY**.")
+                await app.edit_message_text(sender, edit_id, "❌ This channel is protected by **Team SHELLBY**.")
                 return None, None
                 
             return chat_id, msg_id
@@ -957,13 +957,13 @@ async def callback_query_handler(event):
         
         buttons = [
             [Button.inline(f"Pyrogram v2{pyro_check}", b'pyrogram')],
-            [Button.inline(f"SpyLib v1 ⚡{tele_check}", b'telethon')]
+            [Button.inline(f"SHELLBY v1 ⚡{tele_check}", b'telethon')]
         ]
         await event.edit(
             "📤 **Choose Upload Method:**\n\n"
             "**Pyrogram v2:** Standard, reliable uploads\n"
-            "**SpyLib v1 ⚡:** Advanced features, beta version\n\n"
-            "**Note:** SpyLib is built on Telethon and offers enhanced capabilities.",
+            "**SHELLBY v1 ⚡:** Advanced features, beta version\n\n"
+            "**Note:** SHELLBY is built on Telethon and offers enhanced capabilities.",
             buttons=buttons
         )
 
@@ -973,7 +973,7 @@ async def callback_query_handler(event):
 
     elif data == b'telethon':
         telegram_bot.db.save_user_data(user_id, "upload_method", "Telethon")
-        await event.edit("✅ Upload method set to **SpyLib v1 ⚡**\n\nThanks for helping us test this advanced library!")
+        await event.edit("✅ Upload method set to **SHELLBY v1 ⚡**\n\nThanks for helping us test this advanced library!")
 
     # Session management
     elif data == b'logout':
