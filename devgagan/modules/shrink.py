@@ -95,7 +95,7 @@ async def token_handler(client, message):
                  "━━━━━━━━━━━━━━━━━━━━\n"
                      
                  " 🔏 FETCH ANY RESTRICTED OR PRIVATE CHENNAL & GROUPS\n"
-                 " CONTENT - VIDEO, FILES, PHOTO, PDFs, TEXT , ETC...\n\n>"
+                 " CONTENT - VIDEO, FILES, PHOTO, PDFs, TEXT , ETC...\n"
              
                  "✳️ I CAN SAVE POST FROM CHENNAL OR GROUPS WHERE FORWARDING IS OFF. I CAN DOWNLOAD VIDEOS/AUDIOS FORM YT, INSTA, ... SOCIAL PLATFORM\n"
                  "✳️ SIMPLY SEND THE POST LINK OF A PUBLIC & PRIVATE CHENNAL , DO /LOGIN. SEND /HELP TO KNOW MORE."
