@@ -193,7 +193,7 @@ async def batch_link(_, message):
 
     # Start link input
     for attempt in range(3):
-        start = await app.ask(message.chat.id, "🎯 Send The Link For Where I Need To Start Process From.\n Private & Public Groups.. \n Example - https://t.me/c/3947370959/61012/61015 \n\n> You Have Only 3 Tries")
+        start = await app.ask(message.chat.id, "🎯 Send The Link For Where I Need To Start Process From.\n Private & Public Groups.. \n\n> Example - https://t.me/c/xxxxxxx/xxxxx/xxxx \n\n> You Have Only 3 Tries")
         start_id = start.text.strip()
         s = start_id.split("/")[-1]
         if s.isdigit():
