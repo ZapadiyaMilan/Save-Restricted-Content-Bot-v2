@@ -1,1 +1,1 @@
-web: python devgagan/__main__.py
+worker: python main.py
